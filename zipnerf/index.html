@@ -48,9 +48,10 @@
     <div class="container" id="main">
         <div class="row">
             <h2 class="col-md-12 text-center">
-                <b>Zip-NeRF</b>: Anti-Aliased Grid-Based Neural Radiance Fields</br> 
+                <b>Predictive Analysis of Accidents Based on
+                    US Accident Data</b></br> 
                 <small>
-                ICCV 2023 (Oral Presentation, Best Paper Finalist)
+                    2023 14th International Conference on Information and Communication Technology Convergence (ICTC)
                 </small>
             </h2>
         </div>
@@ -58,31 +59,17 @@
             <div class="col-md-12 text-center">
                 <ul class="list-inline">
                     <li>
-                        <a href="https://jonbarron.info/">
-                          Jonathan T. Barron
+                        <a href="../index.html">
+                          Mayura Manawadu
                         </a>
                     </li>
                     <li>
-                        <a href="http://bmild.github.io/">
-                            Ben Mildenhall
+                        <a href="https://sites.google.com/view/udayawijenayake/">
+                            Udaya Wijenayake
                         </a>
                     </li>
-                    <li>
-                        <a href="http://dorverbin.github.io/">
-                          Dor Verbin
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://pratulsrinivasan.github.io/">
-                          Pratul P. Srinivasan
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://phogzone.com/">
-                          Peter Hedman
-                        </a>
-                    </li>
-                    </br>Google
+            
+                    </br>
                 </ul>
             </div>
         </div>
@@ -92,53 +79,31 @@
                 <div class="col-md-6 col-md-offset-3 text-center">
                     <ul class="nav nav-pills nav-justified">
                         <li>
-                            <a href="https://arxiv.org/abs/2304.06706">
-                            <image src="img/zip_paper_image.jpg" height="60px">
+                            <a href="https://ieeexplore.ieee.org/abstract/document/10393583/">
+                            <image src="img/Accident.png" height="60px">
                                 <h4><strong>Paper</strong></h4>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.youtube.com/watch?v=xrrhynRzC8k">
+                            <a href="https://youtu.be/syQGJfk4cGQ">
                             <image src="img/youtube_icon.png" height="60px">
                                 <h4><strong>Video</strong></h4>
                             </a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="https://github.com/jonbarron/camp_zipnerf">
                             <image src="img/github.png" height="60px">
                                 <h4><strong>Code</strong></h4>
                             </a>
-                        </li>
-                        <li>
+                        </li> -->
+                        <!-- <li>
                             <a href="https://github.com/GoogleCloudPlatform/vertex-ai-samples/blob/main/notebooks/community/model_garden/model_garden_camp_zipnerf.ipynb">
                             <image src="img/VertexAI-512-color.webp" height="60px">
                                 <h4><strong>Google Vertex AI Notebook</strong></h4>
                             </a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
-        </div>
-
-
-
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <video id="v0" width="100%" autoplay loop muted controls>
-                  <source src="img/teaser.mp4" type="video/mp4" />
-                </video>
-						</div>
-        </div>
-
-
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <h3>
-                    Abstract
-                </h3>
-                <p class="text-justify">
-Neural Radiance Field training can be accelerated through the use of grid-based representations in NeRF's learned mapping from spatial coordinates to colors and volumetric density. However, these grid-based approaches lack an explicit understanding of scale and therefore often introduce aliasing, usually in the form of jaggies or missing scene content. Anti-aliasing has previously been addressed by mip-NeRF 360, which reasons about sub-volumes along a cone rather than points along a ray, but this approach is not natively compatible with current grid-based techniques. We show how ideas from rendering and signal processing can be used to construct a technique that combines mip-NeRF 360 and grid-based models such as Instant NGP to yield error rates that are 8%-77% lower than either prior technique, and that trains 24x faster than mip-NeRF 360.
-                </p>
-            </div>
         </div>
 
 
@@ -149,26 +114,62 @@ Neural Radiance Field training can be accelerated through the use of grid-based 
                 </h3>
                 <div class="text-center">
                     <div style="position:relative;padding-top:56.25%;">
-                        <iframe src="https://youtube.com/embed/xrrhynRzC8k" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+                        <iframe src="https://www.youtube.com/embed/syQGJfk4cGQ?si=lmAnBIOsPe1I8Y-W" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
                     </div>
                 </div>
             </div>
         </div>
 <br>
+
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <h3>
-                    360° Video Flythroughs
+                    Abstract
                 </h3>
-                <div class="text-center">
-                    <div style="position:relative;padding-top:56.25%;">
-                        <iframe src="https://www.youtube.com/embed/videoseries?list=PLzPoYEE6Aw7Jzjek1uEIPnpcTDL3u8tb4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
-                        <!-- <iframe src="https://youtube.com/embed/jbE2ri8xEZo" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe> -->
-                    </div>
-                </div>
+                <p class="text-justify">
+                    Traffic accidents have emerged as a serious
+                    global concern, resulting in daily casualties and prompting
+                    authorities to prioritize accident prevention measures. This
+                    study presents an accident prediction system that alerts drivers
+                    of potential accidents by analyzing multiple attributes which are
+                    the potential courses of accidents. While previous studies have
+                    predominantly focused on analyzing geographical factors,
+                    predicting accident frequencies, and assessing accident risks,
+                    this study aims to develop two systems—an advanced route
+                    recommendation system and a real-time accident prediction
+                    system—to enhance road safety. Moreover, existing systems
+                    often predict post hoc accident occurrences or have limited
+                    geographical coverage. The advanced route recommendation
+                    system is designed to assist users in planning their journeys by
+                    providing them with the safest routes in advance. Through a
+                    website interface, users can log in and receive personalized
+                    recommendations on the accident prone areas on their path,
+                    based on factors such as historical accident data, road
+                    conditions, traffic patterns and weather conditions. This system
+                    aims to empower individuals to make informed decisions and
+                    reduce the likelihood of accidents during their trips in advance.
+                    The real-time accident prediction system aims to provide
+                    drivers with up-to-date information on potential accidents along
+                    their routes. By utilizing GPS coordinates and retrieving live
+                    data, including weather conditions and real-time accident
+                    reports, the system predicts accident-prone areas in real-time.
+                    Drivers receive these predictions through a mobile application
+                    as an audio message, enabling them to make timely adjustments
+                    to their routes and avoid hazardous situations. Additionally,
+                    static predictions are displayed on a website, featuring markers
+                    indicating accident-prone areas. The research utilizes an
+                    extensive dataset of “US Accident Dataset” spanning across all
+                    49 states of the USA. Results demonstrate that the Random
+                    Forest classifier achieves an impressive 91.5% accuracy in
+                    predicting accident severity, surpassing previous studies.
+                    Furthermore, this paper conducts Exploratory Data Analysis,
+                    unveiling intriguing patterns in the dataset regarding accident
+                    occurrences.                </p>
             </div>
         </div>
-<br>
+
+<!-- 
+       
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <h3>
@@ -223,7 +224,7 @@ Neural Radiance Field training can be accelerated through the use of grid-based 
                     The proposal network used for resampling points along rays in mip-NeRF 360 results in an artifact we refer to as <em>z-aliasing</em>, where foreground content alternately appears and disappears as the camera moves toward or away from scene content. Z-aliasing occurs when the initial set of samples from the proposal network is not dense enough and misses thin structures, such as the chair above. Missed content can not be recovered by later rounds of sampling, since no future samples will be placed at that location along the ray. Our improvements to proposal network supervision result in a prefiltered proposal output that preserves the foreground object for all frames in this sequence. The plots above depict samples along a ray for three rounds of resampling (blue, orange, and green lines), with the y axis showing rendering weight (how much each interval contributes to the final rendered color), as a normalized probability density.
                 </p>
             </div>
-        </div>
+        </div> -->
 
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
@@ -232,13 +233,15 @@ Neural Radiance Field training can be accelerated through the use of grid-based 
                 </h3>
                 <div class="form-group col-md-10 col-md-offset-1">
                     <textarea id="bibtex" class="form-control" readonly>
-@article{barron2023zipnerf,
-    title={Zip-NeRF: Anti-Aliased Grid-Based Neural Radiance Fields},
-    author={Jonathan T. Barron and Ben Mildenhall and 
-            Dor Verbin and Pratul P. Srinivasan and Peter Hedman},
-    journal={ICCV},
-    year={2023}
-}</textarea>
+@inproceedings{manawadu2023predictive,
+        title={Predictive Analysis of Accidents Based on US Accident Data},
+        author={Manawadu, Mayura and Wijenayake, Udaya},
+        booktitle={2023 14th International Conference on Information and Communication Technology Convergence (ICTC)},
+        pages={199--204},
+        year={2023},
+        organization={IEEE}
+}
+</textarea>
                 </div>
             </div>
         </div>
@@ -249,8 +252,10 @@ Neural Radiance Field training can be accelerated through the use of grid-based 
                     Acknowledgements
                 </h3>
                 <p class="text-justify">
-                Thanks to Janne Kontkanen, Rick Szeliski, and David Salesin for their comments on the text, and to Ricardo Martin-Brualla, Keunhong Park, Ben Poole, Aleksander Hołyński, Etienne Pot, Kostas Rematas, Daniel Duckworth, Marcos Seefelder, Cardin Moffett, and Peter Zhizhin for their advice and help.
-                    <br><br>
+This research was supported by the Science and
+Technology Human Resource Development Project, Ministry
+of Education, Sri Lanka, funded by the Asian Development
+Bank (Grant No. STHRD/CRG/R1/SJ/06).                    <br><br>
                 The website template was borrowed from <a href="http://mgharbi.com/">Michaël Gharbi</a> and <a href="https://dorverbin.github.io/refnerf">Ref-NeRF</a>.
                 </p>
             </div>
