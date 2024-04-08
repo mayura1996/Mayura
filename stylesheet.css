@@ -168,7 +168,7 @@ span.highlight {
   /* Justify text and ensure it uses full width for paragraphs */
   p {
       text-align: justify !important;
-      padding: 0 5px;
+      padding: 0;
   }
 
   /* Hide the original profile photo in mobile view */
