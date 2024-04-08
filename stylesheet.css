@@ -141,6 +141,8 @@ span.highlight {
 
 
 @media only screen and (max-width: 768px) {
+
+  
   /* Ensure the name title remains centered */
   .name {
       text-align: center !important;
